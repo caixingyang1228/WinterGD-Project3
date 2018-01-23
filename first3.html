@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=utf-8 />
+    <title>KEYWORD</title>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i,900" rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet">
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+
+  <script src="http://www.jacklmoore.com/colorbox/jquery.colorbox.js"></script>
+
+  <script type='text/jscript'>
+
+$(document).ready(function(){
+
+$('.link').click(function(e){
+  console.log("clicked");
+  e.preventDefault();
+  var mywindow4 = window.open('second6.html', '400', 'height=180px, width=600px, left=100px, top=700px, menubar=0,scrollbars=1, resizable=1,status=1,titlebar=0,toolbar=0,location=1');
+  var mywindow5 = window.open('second7.html', '500', 'height=600px, width=200px, left=1000px, top=100px, menubar=0,scrollbars=1, resizable=1,status=1,titlebar=0,toolbar=0,location=1');
+  var mywindow6 = window.open('second8.html', '600', 'height=300px, width=300px, left=400px, top=50px, menubar=0,scrollbars=1, resizable=1,status=1,titlebar=0,toolbar=0,location=1');
+
+});
+});
+
+setTimeout(function(){
+window.close();
+},10000);
+
+</script>
+
+<a href="#" class="link">实力天平倾斜</a>
+
+</head>
+
+</html>

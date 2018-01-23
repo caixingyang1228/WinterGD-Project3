@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=utf-8 />
+    <title>KEYWORD</title>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i,900" rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet">
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+
+  <script src="http://www.jacklmoore.com/colorbox/jquery.colorbox.js"></script>
+
+  <script type='text/jscript'>
+  $(document).ready(function(){
+
+  $('.link').click(function(e){
+    console.log("clicked");
+    e.preventDefault();
+    var mywindow2 = window.open('https://mp.weixin.qq.com/s/dlObGfSEoqUN69WhKsrAyw', 'csym', 'height=800px, width=1000px, left=100px, top=100px, menubar=0,scrollbars=1, resizable=1,status=1,titlebar=0,toolbar=0,location=1');
+
+  });
+  });
+  setTimeout(function(){
+  window.close();
+  },5000);
+  
+</script>
+
+<a href="#" class="link">数码图像成为信息来源（Andy Denzler)</a>
+
+</head>
+
+</html>
